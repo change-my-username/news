@@ -1,0 +1,11 @@
+h1{
+    color: rgb(0, 175, 233);
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
