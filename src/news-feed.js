@@ -11,7 +11,7 @@ app.use(express.static('./public'));
 
 const getBBC = async () => {
  
-    const feed = await parser.parseURL('http://feeds.bbci.co.uk/news/rss.xml');
+    const feed = await parser.parseURL(url);
 
     return feed.items; 
 };
